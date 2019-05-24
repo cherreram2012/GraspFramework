@@ -2,18 +2,18 @@
 #ifndef GraspCandidate_H
 #define GraspCandidate_H
 
-class Candidate
+class GraspCandidate
 {
 	public:
-		typedef void (*Initializer)	(Candidate &c);
-		typedef void (*Repairer) (Candidate &c);
-		typedef float (*Evaluator) (Candidate &c);
-		typedef Candidate (*LocalSearch) (Candidate &c);
-		typedef float(*Comparator)(const Candidate &c1, const Candidate &c2);
+		typedef void (*Initializer)	(GraspCandidate &c);
+		typedef void (*Repairer) (GraspCandidate &c);
+		typedef float (*Evaluator) (GraspCandidate &c);
+		typedef GraspCandidate (*LocalSearch) (GraspCandidate &c);
+		typedef float(*Comparator)(const GraspCandidate &c1, const GraspCandidate &c2);
 
 	public:
-		Candidate (Candidate &c);
-		virtual ~Candidate();
+		GraspCandidate (GraspCandidate &c);
+		virtual ~GraspCandidate();
 
 		void initializer (Initializer f);
 		void evaluator (Evaluator f);

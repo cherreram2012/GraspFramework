@@ -7,7 +7,7 @@
 
 class GraspBase;
 
-class GraspStopBase
+class GraspStopCriterion
 {
 	protected:
 		typedef GraspBoolean (*Terminator) (GraspBase &gb);
@@ -16,7 +16,7 @@ class GraspStopBase
 		Terminator cstop;
 };
 
-class GraspStopByIterations : public GraspStopBase
+class GraspStopByIterations : public GraspStopCriterion
 {
 	public:
 		GraspStopByIterations (unsigned long int v);
@@ -25,7 +25,7 @@ class GraspStopByIterations : public GraspStopBase
 		unsigned long int niterations;
 };
 
-class GraspStopByTarget : public GraspStopBase
+class GraspStopByTarget : public GraspStopCriterion
 {
 	public:
 		GraspStopByTarget (float v);
@@ -34,7 +34,7 @@ class GraspStopByTarget : public GraspStopBase
 		float vtarget;
 };
 
-class GraspStopByTime : public GraspStopBase
+class GraspStopByTime : public GraspStopCriterion
 {
 	public:
 		GraspStopByTime (float v);
@@ -43,7 +43,7 @@ class GraspStopByTime : public GraspStopBase
 		float vtime;
 };
 
-class GraspStopByProbability : public GraspStopBase
+class GraspStopByProbability : public GraspStopCriterion
 {
 	public:
 		GraspStopByProbability (float v);

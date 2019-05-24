@@ -6,7 +6,7 @@
 #include "GraspStatistics.h"
 #include "GraspStopCriterion.h"
 
-class GraspStopBase;
+class GraspStopCriterion;
 
 class GraspBase
 {
@@ -23,7 +23,7 @@ class GraspBase
 		//Evaluator eval;		// population evaluation method
 
 	protected:
-		GraspStopBase *terminator;
+		GraspStopCriterion *terminator;
 		GraspStatistics statistics;
 };
 
