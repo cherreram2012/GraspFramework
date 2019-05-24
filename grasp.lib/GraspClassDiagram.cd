@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Candidate" Collapsed="true">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIgAAAABIAAAAAAAAAAAAAAABAAIQIAAFAAEAAAA=</HashCode>
+      <FileName>GraspCandidate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grasp1DArrayCandidate" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grasp1DArrayCandidate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspArray&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAIgAAAAAAAAAAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>GraspArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspBase" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAAAEAAAQAEABAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraspBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspPathRelinking" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>GraspPathRelinking.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspRandom" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraspRandom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspSimple" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>GraspSimple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspStatistics" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgEAAAAAAQACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraspStatistics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspStopBase" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraspStopCriterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspStopByIterations" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>GraspStopCriterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspStopByProbability" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraspStopCriterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspStopByTarget" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>GraspStopCriterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraspStopByTime" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>GraspStopCriterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="_GraspBoolean" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraspTypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
