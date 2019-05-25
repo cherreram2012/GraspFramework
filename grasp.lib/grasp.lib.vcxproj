@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="GraspArray.h" />
     <ClInclude Include="GraspBase.h" />
+    <ClInclude Include="GraspLocalSearch.h" />
     <ClInclude Include="GraspSimple.h" />
     <ClInclude Include="GraspCandidate.h" />
     <ClInclude Include="Grasp1DArrayCandidate.h" />
@@ -40,6 +41,7 @@
     <ClCompile Include="Grasp1DArrayCandidate.cpp" />
     <ClCompile Include="Grasp2DArrayCandidate.cpp" />
     <ClCompile Include="Grasp3DArrayCandidate.cpp" />
+    <ClCompile Include="GraspLocalSearch.cpp" />
     <ClCompile Include="GraspSimple.cpp" />
     <ClCompile Include="GraspCandidate.cpp" />
     <ClCompile Include="GraspParameter.cpp" />
