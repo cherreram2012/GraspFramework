@@ -8,18 +8,18 @@
 
 class GraspStopCriterion;
 
-class GraspBase
+class GraspProcedure
 {
 	//public:
 		//typedef void(*Evaluator)(GAPopulation &);
 
 	public:
-		GraspBase() {};
+		GraspProcedure() {};
 
 		virtual void initialize(unsigned int seed = 0) = 0;
 		virtual void step() = 0;
 		bool done(void);
-		GraspBase& operator++() { step(); return *this; }
+		GraspProcedure& operator ++() { step(); return *this; }
 		//Evaluator eval;		// population evaluation method
 
 	protected:

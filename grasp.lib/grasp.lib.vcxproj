@@ -20,9 +20,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraspArray.h" />
-    <ClInclude Include="GraspBase.h" />
+    <ClInclude Include="GraspContinuosGrasp.h" />
+    <ClInclude Include="GraspDMGrasp.h" />
+    <ClInclude Include="GraspEvPRGrasp.h" />
+    <ClInclude Include="GraspParallelGrasp.h" />
+    <ClInclude Include="GraspProcedure.h" />
     <ClInclude Include="GraspLocalSearch.h" />
-    <ClInclude Include="GraspSimple.h" />
+    <ClInclude Include="GraspPRGrasp.h" />
+    <ClInclude Include="GraspBasicGrasp.h" />
     <ClInclude Include="GraspCandidate.h" />
     <ClInclude Include="Grasp1DArrayCandidate.h" />
     <ClInclude Include="Grasp2DArrayCandidate.h" />
@@ -30,6 +35,7 @@
     <ClInclude Include="GraspParameter.h" />
     <ClInclude Include="GraspPathRelinking.h" />
     <ClInclude Include="GraspRandom.h" />
+    <ClInclude Include="GraspReactiveGrasp.h" />
     <ClInclude Include="GraspStatistics.h" />
     <ClInclude Include="GraspStopCriterion.h" />
     <ClInclude Include="GraspTypes.h" />

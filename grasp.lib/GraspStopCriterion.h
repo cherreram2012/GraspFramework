@@ -5,12 +5,12 @@
 #include "GraspBase.h"
 #include "GraspTypes.h"
 
-class GraspBase;
+class GraspProcedure;
 
 class GraspStopCriterion
 {
 	protected:
-		typedef GraspBoolean (*Terminator) (GraspBase &gb);
+		typedef GraspBoolean (*Terminator) (GraspProcedure &gb);
 
 	protected:
 		Terminator cstop;

@@ -86,12 +86,6 @@
     <ClInclude Include="mt19937ar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GraspSimple.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GraspBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="GraspTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -102,6 +96,30 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraspLocalSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspPRGrasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspBasicGrasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspProcedure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspDMGrasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspEvPRGrasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspReactiveGrasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspContinuosGrasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspParallelGrasp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
