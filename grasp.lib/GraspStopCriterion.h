@@ -2,8 +2,8 @@
 #ifndef GraspStopCriterion_H
 #define GraspStopCriterion_H
 
-#include "GraspBase.h"
 #include "GraspTypes.h"
+#include "GraspProcedure.h"
 
 class GraspProcedure;
 
