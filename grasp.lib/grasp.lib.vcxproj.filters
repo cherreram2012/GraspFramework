@@ -24,15 +24,6 @@
     <ClCompile Include="GraspStatistics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Grasp1DArrayCandidate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Grasp2DArrayCandidate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Grasp3DArrayCandidate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GraspRandom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -78,6 +69,15 @@
     <ClCompile Include="GraspNeighborhood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Grasp1DCandidate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grasp2DCandidate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grasp3DCandidate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraspParameter.h">
@@ -87,15 +87,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraspCandidate.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Grasp1DArrayCandidate.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Grasp2DArrayCandidate.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Grasp3DArrayCandidate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraspRandom.h">
@@ -144,6 +135,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraspNeighborhood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grasp1DCandidate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grasp2DCandidate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grasp3DCandidate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

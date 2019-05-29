@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Grasp1DCandidate.h" />
+    <ClInclude Include="Grasp2DCandidate.h" />
     <ClInclude Include="GraspArray.h" />
     <ClInclude Include="GraspContinuosGrasp.h" />
     <ClInclude Include="GraspDMGrasp.h" />
@@ -30,9 +32,7 @@
     <ClInclude Include="GraspPRGrasp.h" />
     <ClInclude Include="GraspBasicGrasp.h" />
     <ClInclude Include="GraspCandidate.h" />
-    <ClInclude Include="Grasp1DArrayCandidate.h" />
-    <ClInclude Include="Grasp2DArrayCandidate.h" />
-    <ClInclude Include="Grasp3DArrayCandidate.h" />
+    <ClInclude Include="Grasp3DCandidate.h" />
     <ClInclude Include="GraspParameter.h" />
     <ClInclude Include="GraspPathRelinking.h" />
     <ClInclude Include="GraspRandom.h" />
@@ -51,9 +51,9 @@
     <ClCompile Include="GraspParallelGrasp.cpp" />
     <ClCompile Include="GraspPRGrasp.cpp" />
     <ClCompile Include="GraspProcedureGrasp.cpp" />
-    <ClCompile Include="Grasp1DArrayCandidate.cpp" />
-    <ClCompile Include="Grasp2DArrayCandidate.cpp" />
-    <ClCompile Include="Grasp3DArrayCandidate.cpp" />
+    <ClCompile Include="Grasp1DCandidate.cpp" />
+    <ClCompile Include="Grasp2DCandidate.cpp" />
+    <ClCompile Include="Grasp3DCandidate.cpp" />
     <ClCompile Include="GraspLocalSearch.cpp" />
     <ClCompile Include="GraspBasicGrasp.cpp" />
     <ClCompile Include="GraspCandidate.cpp" />
