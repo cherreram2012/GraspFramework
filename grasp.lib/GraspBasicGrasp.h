@@ -1,13 +1,13 @@
 #pragma once
-#ifndef GraspSimple_H
-#define GraspSimple_H
+#ifndef GraspBasicGrasp_H
+#define GraspBasicGrasp_H
 
-#include "GraspBase.h"
+#include "GraspProcedureGrasp.h"
 
-class GraspSimple : public GraspBase
+class GraspBasicGrasp : public GraspProcedureGrasp
 {
 	public:
-		GraspSimple();
+		GraspBasicGrasp();
 };
 
 #endif

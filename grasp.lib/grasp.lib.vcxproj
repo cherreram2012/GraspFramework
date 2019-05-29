@@ -23,8 +23,9 @@
     <ClInclude Include="GraspContinuosGrasp.h" />
     <ClInclude Include="GraspDMGrasp.h" />
     <ClInclude Include="GraspEvPRGrasp.h" />
+    <ClInclude Include="GraspNeighborhood.h" />
     <ClInclude Include="GraspParallelGrasp.h" />
-    <ClInclude Include="GraspProcedure.h" />
+    <ClInclude Include="GraspProcedureGrasp.h" />
     <ClInclude Include="GraspLocalSearch.h" />
     <ClInclude Include="GraspPRGrasp.h" />
     <ClInclude Include="GraspBasicGrasp.h" />
@@ -43,16 +44,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GraspArray.cpp" />
-    <ClCompile Include="GraspBase.cpp" />
+    <ClCompile Include="GraspContinuosGrasp.cpp" />
+    <ClCompile Include="GraspDMGrasp.cpp" />
+    <ClCompile Include="GraspEvPRGrasp.cpp" />
+    <ClCompile Include="GraspNeighborhood.cpp" />
+    <ClCompile Include="GraspParallelGrasp.cpp" />
+    <ClCompile Include="GraspPRGrasp.cpp" />
+    <ClCompile Include="GraspProcedureGrasp.cpp" />
     <ClCompile Include="Grasp1DArrayCandidate.cpp" />
     <ClCompile Include="Grasp2DArrayCandidate.cpp" />
     <ClCompile Include="Grasp3DArrayCandidate.cpp" />
     <ClCompile Include="GraspLocalSearch.cpp" />
-    <ClCompile Include="GraspSimple.cpp" />
+    <ClCompile Include="GraspBasicGrasp.cpp" />
     <ClCompile Include="GraspCandidate.cpp" />
     <ClCompile Include="GraspParameter.cpp" />
     <ClCompile Include="GraspPathRelinking.cpp" />
     <ClCompile Include="GraspRandom.cpp" />
+    <ClCompile Include="GraspReactiveGrasp.cpp" />
     <ClCompile Include="GraspStatistics.cpp" />
     <ClCompile Include="GraspStopCriterion.cpp" />
     <ClCompile Include="mt19937ar.cpp" />

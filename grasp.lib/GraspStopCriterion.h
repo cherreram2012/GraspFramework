@@ -3,19 +3,33 @@
 #define GraspStopCriterion_H
 
 #include "GraspTypes.h"
-#include "GraspProcedure.h"
+#include "GraspProcedureGrasp.h"
 
-class GraspProcedure;
+class GraspProcedureGrasp;
 
+//------------------------------------------------------------------------------
+//	ClassName: XYZ
+//
+//  Description: .
+//
+//  Revision: x/y/2019 
+//------------------------------------------------------------------------------
 class GraspStopCriterion
 {
 	protected:
-		typedef GraspBoolean (*Terminator) (GraspProcedure &gb);
+		typedef GraspBoolean (*Terminator) (GraspProcedureGrasp &gb);
 
 	protected:
 		Terminator cstop;
 };
 
+//------------------------------------------------------------------------------
+//	ClassName: XYZ
+//
+//  Description: .
+//
+//  Revision: x/y/2019 
+//------------------------------------------------------------------------------
 class GraspStopByIterations : public GraspStopCriterion
 {
 	public:
@@ -25,6 +39,13 @@ class GraspStopByIterations : public GraspStopCriterion
 		unsigned long int niterations;
 };
 
+//------------------------------------------------------------------------------
+//	ClassName: XYZ
+//
+//  Description: .
+//
+//  Revision: x/y/2019 
+//------------------------------------------------------------------------------
 class GraspStopByTarget : public GraspStopCriterion
 {
 	public:
@@ -34,6 +55,13 @@ class GraspStopByTarget : public GraspStopCriterion
 		float vtarget;
 };
 
+//------------------------------------------------------------------------------
+//	ClassName: XYZ
+//
+//  Description: .
+//
+//  Revision: x/y/2019 
+//------------------------------------------------------------------------------
 class GraspStopByTime : public GraspStopCriterion
 {
 	public:
@@ -43,6 +71,13 @@ class GraspStopByTime : public GraspStopCriterion
 		float vtime;
 };
 
+//------------------------------------------------------------------------------
+//	ClassName: XYZ
+//
+//  Description: .
+//
+//  Revision: x/y/2019 
+//------------------------------------------------------------------------------
 class GraspStopByProbability : public GraspStopCriterion
 {
 	public:

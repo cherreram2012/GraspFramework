@@ -1,11 +1,7 @@
 #include <limits>
 #include "GraspLocalSearch.h"
 
-
-//----------------------------------------------------------------------------------
-// 
-//----------------------------------------------------------------------------------
-void CFirstImprovingSearch::Execute(void)
+void GraspFirstImproving::execute(void)
 {
 	int card, last;
 	float f, fprime;
@@ -44,7 +40,7 @@ void CFirstImprovingSearch::Execute(void)
 	//return S;
 }
 
-void CBestImprovingSearch::Execute(void)
+void GraspBestImproving::execute(void)
 {
 	int card;
 	float f, fprime, fbest;

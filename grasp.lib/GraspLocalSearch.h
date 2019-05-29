@@ -2,50 +2,71 @@
 #ifndef GraspLocalSearch_H
 #define GraspLocalSearch_H
 
-class CLocalSearchStrategy
+//------------------------------------------------------------------------------
+//	ClassName: XYZ
+//
+//  Description: .
+//
+//  Revision: x/y/2019 
+//------------------------------------------------------------------------------
+class GraspLocalSearch
 {
 	protected:
 
 
 	public:
-		CLocalSearchStrategy(void);
-		virtual ~CLocalSearchStrategy(void);
+		GraspLocalSearch(void);
+		virtual ~GraspLocalSearch(void);
 
-		virtual void Execute(void) = 0;
+		virtual void execute(void) = 0;
 		
 		//void NeighborStrategy(CNeighborhoobStrategy *neighbors);
 };
 
-class CFirstImprovingSearch : public CLocalSearchStrategy {
-public:
-	//--- Constructor and destructor ---//
-	CFirstImprovingSearch(void);
-	~CFirstImprovingSearch(void);
-
-	virtual void Execute (void);
-};
-
-class CBestImprovingSearch : public CLocalSearchStrategy {
-public:
-	CBestImprovingSearch(void);
-	~CBestImprovingSearch(void);
-
-	virtual void Execute(void);
-};
-
 //------------------------------------------------------------------------------
-//	ClassName: BestImprovingSearch
+//	ClassName: XYZ
 //
 //  Description: .
 //
-//  Revision: 16/05/2019 
+//  Revision: x/y/2019 
 //------------------------------------------------------------------------------
-class CVariableDescentSearch : public CLocalSearchStrategy {
+class GraspFirstImproving : public GraspLocalSearch {
+public:
+	//--- Constructor and destructor ---//
+	 GraspFirstImproving(void);
+	~GraspFirstImproving(void);
+
+	virtual void execute (void);
+};
+
+//------------------------------------------------------------------------------
+//	ClassName: XYZ
+//
+//  Description: .
+//
+//  Revision: x/y/2019 
+//------------------------------------------------------------------------------
+class GraspBestImproving : public GraspLocalSearch {
+public:
+	GraspBestImproving(void);
+	~GraspBestImproving(void);
+
+	virtual void execute(void);
+};
+
+//------------------------------------------------------------------------------
+//	ClassName: XYZ
+//
+//  Description: .
+//
+//  Revision: x/y/2019 
+//------------------------------------------------------------------------------
+class GraspVariableDescent : public GraspLocalSearch {
 public:
 
-	CVariableDescentSearch(void);
-	~CVariableDescentSearch(void);
+	GraspVariableDescent(void);
+	~GraspVariableDescent(void);
 
-	virtual void Execute(void);
+	virtual void execute(void);
 };
 #endif
