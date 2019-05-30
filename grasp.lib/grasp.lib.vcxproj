@@ -73,7 +73,7 @@
     <ProjectGuid>{5AF002C1-9550-4242-8BFA-7A4257168055}</ProjectGuid>
     <RootNamespace>GRASPFramework</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>graspLib</ProjectName>
+    <ProjectName>grasp.lib</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
