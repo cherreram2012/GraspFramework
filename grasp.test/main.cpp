@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void)
 {
-	cout << "Projeto test para GRASP Lib";
+	cout << "GRASP for Travel Salesman Problem";
 
 	_getch();
 	return 0;
