@@ -5,7 +5,9 @@ using namespace std;
 
 int main(void)
 {
-	cout << "Projeto test para GRASP Lib";
+	cout << "+-----------------------------+"
+			 << "| GRASP-Lib Tester prtoject.  |" 
+			 << "+-----------------------------+";
 
 	_getch();
 	return 0;
