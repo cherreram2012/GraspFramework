@@ -3,9 +3,10 @@
 #define GraspStopCriterion_H
 
 #include "GraspTypes.h"
-#include "GraspProcedureGrasp.h"
+#include "GraspStatistics.h"
+#include "GraspAbstractGrasp.h"
 
-class GraspProcedureGrasp;
+class GraspAbstractGrasp;
 
 //------------------------------------------------------------------------------
 //	ClassName: XYZ
@@ -17,10 +18,11 @@ class GraspProcedureGrasp;
 class GraspStopCriterion
 {
 	protected:
-		typedef GraspBoolean (*Terminator) (GraspProcedureGrasp &gb);
+		virtual bool isDone(const GraspStatistics &stats) = 0;
+		//typedef GraspBoolean (*Terminator) (GraspAbstractGrasp &gb);
 
 	protected:
-		Terminator cstop;
+		//Terminator cstop;
 };
 
 //------------------------------------------------------------------------------

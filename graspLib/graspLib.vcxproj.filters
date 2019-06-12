@@ -78,6 +78,12 @@
     <ClCompile Include="Grasp3DCandidate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GraspEliteSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraspRestarts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraspParameter.h">
@@ -128,9 +134,6 @@
     <ClInclude Include="GraspParallelGrasp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GraspProcedureGrasp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="GraspPathRelinking.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -144,6 +147,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Grasp3DCandidate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspAbstractGrasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspEliteSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspRestarts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -3,7 +3,13 @@
 
 typedef bool GraspBit;
 
-typedef float GraspProbability;
+typedef float GraspFloat;
+
+typedef float GraspDouble;
+
+typedef unsigned int GraspUInt;
+
+typedef unsigned long int GraspULong;
 
 typedef enum _GraspBoolean {
 	graspFalse = 0,

@@ -24,10 +24,11 @@
     <ClInclude Include="GraspArray.h" />
     <ClInclude Include="GraspContinuosGrasp.h" />
     <ClInclude Include="GraspDMGrasp.h" />
+    <ClInclude Include="GraspEliteSet.h" />
     <ClInclude Include="GraspEvPRGrasp.h" />
     <ClInclude Include="GraspNeighborhood.h" />
     <ClInclude Include="GraspParallelGrasp.h" />
-    <ClInclude Include="GraspProcedureGrasp.h" />
+    <ClInclude Include="GraspAbstractGrasp.h" />
     <ClInclude Include="GraspLocalSearch.h" />
     <ClInclude Include="GraspPRGrasp.h" />
     <ClInclude Include="GraspBasicGrasp.h" />
@@ -37,6 +38,7 @@
     <ClInclude Include="GraspPathRelinking.h" />
     <ClInclude Include="GraspRandom.h" />
     <ClInclude Include="GraspReactiveGrasp.h" />
+    <ClInclude Include="GraspRestarts.h" />
     <ClInclude Include="GraspStatistics.h" />
     <ClInclude Include="GraspStopCriterion.h" />
     <ClInclude Include="GraspTypes.h" />
@@ -46,6 +48,7 @@
     <ClCompile Include="GraspArray.cpp" />
     <ClCompile Include="GraspContinuosGrasp.cpp" />
     <ClCompile Include="GraspDMGrasp.cpp" />
+    <ClCompile Include="GraspEliteSet.cpp" />
     <ClCompile Include="GraspEvPRGrasp.cpp" />
     <ClCompile Include="GraspNeighborhood.cpp" />
     <ClCompile Include="GraspParallelGrasp.cpp" />
@@ -61,6 +64,7 @@
     <ClCompile Include="GraspPathRelinking.cpp" />
     <ClCompile Include="GraspRandom.cpp" />
     <ClCompile Include="GraspReactiveGrasp.cpp" />
+    <ClCompile Include="GraspRestarts.cpp" />
     <ClCompile Include="GraspStatistics.cpp" />
     <ClCompile Include="GraspStopCriterion.cpp" />
     <ClCompile Include="mt19937ar.cpp" />

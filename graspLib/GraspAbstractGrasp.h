@@ -4,23 +4,27 @@
 
 #include "GraspCandidate.h"
 #include "GraspStatistics.h"
+#include "GraspLocalSearch.h"
+#include "GraspNeighborhood.h"
 #include "GraspStopCriterion.h"
 
 class GraspStopCriterion;
 
-class GraspProcedureGrasp
+class GraspAbstractGrasp
 {
 	//public:
 		//typedef void(*Evaluator)(GAPopulation &);
+	protected:
+		GraspLocalSearch *localsearch;
 
 	public:
-		GraspProcedureGrasp() {};
+		GraspAbstractGrasp() {};
 
 		virtual void initialize(unsigned int seed = 0) = 0;
 		virtual void step() = 0; 
 		virtual void execute() = 0;
 		bool done(void);
-		GraspProcedureGrasp& operator ++() { step(); return *this; }
+		GraspAbstractGrasp& operator ++() { step(); return *this; }
 		//Evaluator eval;		// population evaluation method
 
 	protected:
