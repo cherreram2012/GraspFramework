@@ -1,3 +1,4 @@
+#pragma once
 #ifndef GraspTypes_H
 #define GraspTypes_H
 

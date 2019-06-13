@@ -2,9 +2,9 @@
 #ifndef GraspEvPRGrasp_H
 #define GraspEvPRGrasp_H
 
-#include "GraspProcedureGrasp.h"
+#include "GraspAbstractGrasp.h"
 
-class GraspEvPRGrasp : public GraspProcedureGrasp
+class GraspEvPRGrasp : public GraspAbstractGrasp
 {
 	public:
 		GraspEvPRGrasp();

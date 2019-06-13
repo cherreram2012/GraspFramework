@@ -18,70 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Grasp1DCandidate.h" />
-    <ClInclude Include="Grasp2DCandidate.h" />
-    <ClInclude Include="GraspArray.h" />
-    <ClInclude Include="GraspContinuosGrasp.h" />
-    <ClInclude Include="GraspDMGrasp.h" />
-    <ClInclude Include="GraspEliteSet.h" />
-    <ClInclude Include="GraspEvPRGrasp.h" />
-    <ClInclude Include="GraspNeighborhood.h" />
-    <ClInclude Include="GraspParallelGrasp.h" />
-    <ClInclude Include="GraspAbstractGrasp.h" />
-    <ClInclude Include="GraspLocalSearch.h" />
-    <ClInclude Include="GraspPRGrasp.h" />
-    <ClInclude Include="GraspBasicGrasp.h" />
-    <ClInclude Include="GraspCandidate.h" />
-    <ClInclude Include="Grasp3DCandidate.h" />
-    <ClInclude Include="GraspParameter.h" />
-    <ClInclude Include="GraspPathRelinking.h" />
-    <ClInclude Include="GraspRandom.h" />
-    <ClInclude Include="GraspReactiveGrasp.h" />
-    <ClInclude Include="GraspRestarts.h" />
-    <ClInclude Include="GraspStatistics.h" />
-    <ClInclude Include="GraspStopCriterion.h" />
-    <ClInclude Include="GraspTypes.h" />
-    <ClInclude Include="mt19937ar.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="GraspArray.cpp" />
-    <ClCompile Include="GraspContinuosGrasp.cpp" />
-    <ClCompile Include="GraspDMGrasp.cpp" />
-    <ClCompile Include="GraspEliteSet.cpp" />
-    <ClCompile Include="GraspEvPRGrasp.cpp" />
-    <ClCompile Include="GraspNeighborhood.cpp" />
-    <ClCompile Include="GraspParallelGrasp.cpp" />
-    <ClCompile Include="GraspPRGrasp.cpp" />
-    <ClCompile Include="GraspAbstractGrasp.cpp" />
-    <ClCompile Include="Grasp1DCandidate.cpp" />
-    <ClCompile Include="Grasp2DCandidate.cpp" />
-    <ClCompile Include="Grasp3DCandidate.cpp" />
-    <ClCompile Include="GraspLocalSearch.cpp" />
-    <ClCompile Include="GraspBasicGrasp.cpp" />
-    <ClCompile Include="GraspCandidate.cpp" />
-    <ClCompile Include="GraspParameter.cpp" />
-    <ClCompile Include="GraspPathRelinking.cpp" />
-    <ClCompile Include="GraspRandom.cpp" />
-    <ClCompile Include="GraspReactiveGrasp.cpp" />
-    <ClCompile Include="GraspRestarts.cpp" />
-    <ClCompile Include="GraspStatistics.cpp" />
-    <ClCompile Include="GraspStopCriterion.cpp" />
-    <ClCompile Include="mt19937ar.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="GraspClassDiagram.cd" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{5AF002C1-9550-4242-8BFA-7A4257168055}</ProjectGuid>
-    <RootNamespace>GRASPFramework</RootNamespace>
+    <ProjectGuid>{5AF58684-E144-4050-9432-C920516D6F09}</ProjectGuid>
+    <RootNamespace>Ex1TSP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>graspLib</ProjectName>
+    <ProjectName>ex6.stp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
@@ -131,7 +77,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -170,6 +115,9 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
