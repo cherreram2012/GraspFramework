@@ -5,6 +5,7 @@
 class GraspCandidate
 {
 	public:
+		typedef void *UserData;
 		typedef void (*Initializer)	(GraspCandidate &c);
 		typedef void (*Repairer) (GraspCandidate &c);
 		typedef float (*Evaluator) (GraspCandidate &c);
@@ -16,11 +17,14 @@ class GraspCandidate
 		virtual ~GraspCandidate();
 
 		void initializer (Initializer f);
-		void evaluator (Evaluator f);
 		void repairer (Repairer f);
+		void evaluator (Evaluator f);
 		void localsearch (LocalSearch f);
 		void comparator (Comparator f);
-		
+		void userdata (UserData ud);
+
+		UserData userdata (void) const;
+
 		Initializer initializer (void) const;
 		Evaluator evaluator (void) const;
 		Repairer repairer (void) const;
@@ -28,9 +32,10 @@ class GraspCandidate
 		Comparator comparator(void) const;
 
 	protected:
-		Initializer init;
+		UserData udata;
 		Evaluator eval;		// objective function
 		Repairer fixer;
+		Initializer init;
 		LocalSearch seek;
 		Comparator comparer;
 
