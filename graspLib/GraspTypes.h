@@ -16,6 +16,12 @@ typedef unsigned short GraspUShort;
 
 typedef unsigned long int GraspULong;
 
+typedef void* UserData;
+typedef void (*Initializer)	(GraspCandidate &c);
+typedef void (*Repairer) (GraspCandidate &c);
+typedef float (*Evaluator) (GraspCandidate &c);
+typedef float (*Comparator)(const GraspCandidate &c1, const GraspCandidate &c2);
+
 /*typedef enum _GraspBoolean {
 	graspFalse = 0,
 	graspTrue

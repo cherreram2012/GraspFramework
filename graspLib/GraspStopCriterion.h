@@ -4,9 +4,6 @@
 
 #include "GraspTypes.h"
 #include "GraspStatistics.h"
-#include "GraspAbstractGrasp.h"
-
-class GraspAbstractGrasp;
 
 //------------------------------------------------------------------------------
 //	ClassName: XYZ
@@ -17,12 +14,10 @@ class GraspAbstractGrasp;
 //------------------------------------------------------------------------------
 class GraspStopCriterion
 {
-	protected:
-		virtual bool isDone(const GraspStatistics &stats) = 0;
-		//typedef GraspBoolean (*Terminator) (GraspAbstractGrasp &gb);
+	public:
+		virtual GraspBool isDone(const GraspStatistics &stats) = 0;
 
 	protected:
-		//Terminator cstop;
 };
 
 //------------------------------------------------------------------------------
@@ -35,10 +30,12 @@ class GraspStopCriterion
 class GraspStopByIterations : public GraspStopCriterion
 {
 	public:
-		GraspStopByIterations (unsigned long int v);
+		 GraspStopByIterations (const GraspULong &it);
+		 ~GraspStopByIterations(void) {};
+		virtual GraspBool isDone (const GraspStatistics &stats);
 
 	private:
-		unsigned long int niterations;
+		GraspULong niter;
 };
 
 //------------------------------------------------------------------------------
@@ -51,10 +48,12 @@ class GraspStopByIterations : public GraspStopCriterion
 class GraspStopByTarget : public GraspStopCriterion
 {
 	public:
-		GraspStopByTarget (float v);
+		 GraspStopByTarget (const GraspFloat &f);
+		~GraspStopByTarget (void) {};
+		virtual GraspBool isDone (const GraspStatistics &stats);
 
 	private:
-		float vtarget;
+		GraspFloat target;
 };
 
 //------------------------------------------------------------------------------
@@ -67,10 +66,12 @@ class GraspStopByTarget : public GraspStopCriterion
 class GraspStopByTime : public GraspStopCriterion
 {
 	public:
-		GraspStopByTime (float v);
+		 GraspStopByTime (const GraspDouble &t);
+		~GraspStopByTime (void) {};
+		virtual GraspBool isDone (const GraspStatistics &stats);
 
 	private:
-		float vtime;
+		GraspDouble time;
 };
 
 //------------------------------------------------------------------------------
@@ -83,9 +84,11 @@ class GraspStopByTime : public GraspStopCriterion
 class GraspStopByProbability : public GraspStopCriterion
 {
 	public:
-		GraspStopByProbability (float v);
+		 GraspStopByProbability (const GraspFloat &p);
+		~GraspStopByProbability (void) {};
+		virtual GraspBool isDone (const GraspStatistics &stats);
 
 	private:
-		float vprobability;
+		GraspFloat prob;
 };
 #endif
