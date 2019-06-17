@@ -2,19 +2,23 @@
 #ifndef GraspTypes_H
 #define GraspTypes_H
 
-typedef bool GraspBit;
+typedef bool GraspBool;
+
+typedef short GraspShort;
 
 typedef float GraspFloat;
 
-typedef float GraspDouble;
+typedef double GraspDouble;
 
 typedef unsigned int GraspUInt;
 
+typedef unsigned short GraspUShort;
+
 typedef unsigned long int GraspULong;
 
-typedef enum _GraspBoolean {
+/*typedef enum _GraspBoolean {
 	graspFalse = 0,
 	graspTrue
-} GraspBool, GraspBoolean;
+} GraspBool, GraspBoolean;*/
 
 #endif

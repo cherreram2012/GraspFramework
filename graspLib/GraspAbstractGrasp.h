@@ -12,8 +12,6 @@ class GraspStopCriterion;
 
 class GraspAbstractGrasp
 {
-	//public:
-		//typedef void(*Evaluator)(GAPopulation &);
 	protected:
 		GraspLocalSearch *localsearch;
 
