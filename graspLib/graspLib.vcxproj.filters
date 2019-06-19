@@ -84,6 +84,9 @@
     <ClCompile Include="GraspAbstractGrasp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GraspException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraspParameter.h">
@@ -156,6 +159,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraspRestarts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspException.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

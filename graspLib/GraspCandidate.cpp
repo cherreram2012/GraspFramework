@@ -8,42 +8,42 @@ GraspCandidate::~GraspCandidate()
 {
 }
 
-void GraspCandidate::initializer(Initializer f)
+void GraspCandidate::initializer(GraspInitializerFunc f)
 {
 }
 
-void GraspCandidate::repairer(Repairer f)
+void GraspCandidate::repairer(GraspRepairerFunc f)
 {
 }
 
-void GraspCandidate::evaluator(Evaluator f)
+void GraspCandidate::evaluator(GraspEvaluatorFunc f)
 {
 }
 
-void GraspCandidate::comparator(Comparator f)
+void GraspCandidate::comparator(ComparatorFunc f)
 {
 }
 
-void GraspCandidate::userdata(UserData ud)
+void GraspCandidate::userdata(GraspUserData ud)
 {
 }
 
-Initializer GraspCandidate::initializer(void) const
+GraspInitializerFunc GraspCandidate::initializer(void) const
 {
 }
 
-Evaluator GraspCandidate::evaluator(void) const
+GraspEvaluatorFunc GraspCandidate::evaluator(void) const
 {
 }
 
-Repairer GraspCandidate::repairer(void) const
+GraspRepairerFunc GraspCandidate::repairer(void) const
 {
 }
 
-Comparator GraspCandidate::comparator(void) const
+ComparatorFunc GraspCandidate::comparator(void) const
 {
 }
 
-UserData GraspCandidate::userdata(void) const
+GraspUserData GraspCandidate::userdata(void) const
 {
 }

@@ -15,7 +15,7 @@
 class GraspStopCriterion
 {
 	public:
-		virtual GraspBool isDone(const GraspStatistics &stats) = 0;
+		virtual GraspBool isdone(const GraspStatistics &stats) = 0;
 
 	protected:
 };
@@ -32,7 +32,7 @@ class GraspStopByIterations : public GraspStopCriterion
 	public:
 		 GraspStopByIterations (const GraspULong &it);
 		 ~GraspStopByIterations(void) {};
-		virtual GraspBool isDone (const GraspStatistics &stats);
+		virtual GraspBool isdone (const GraspStatistics &stats);
 
 	private:
 		GraspULong niter;
@@ -50,7 +50,7 @@ class GraspStopByTarget : public GraspStopCriterion
 	public:
 		 GraspStopByTarget (const GraspFloat &f);
 		~GraspStopByTarget (void) {};
-		virtual GraspBool isDone (const GraspStatistics &stats);
+		virtual GraspBool isdone(const GraspStatistics &stats);
 
 	private:
 		GraspFloat target;
@@ -68,7 +68,7 @@ class GraspStopByTime : public GraspStopCriterion
 	public:
 		 GraspStopByTime (const GraspDouble &t);
 		~GraspStopByTime (void) {};
-		virtual GraspBool isDone (const GraspStatistics &stats);
+		virtual GraspBool isdone(const GraspStatistics &stats);
 
 	private:
 		GraspDouble time;
@@ -86,7 +86,7 @@ class GraspStopByProbability : public GraspStopCriterion
 	public:
 		 GraspStopByProbability (const GraspFloat &p);
 		~GraspStopByProbability (void) {};
-		virtual GraspBool isDone (const GraspStatistics &stats);
+		virtual GraspBool isdone(const GraspStatistics &stats);
 
 	private:
 		GraspFloat prob;

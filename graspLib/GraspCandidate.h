@@ -10,24 +10,24 @@ class GraspCandidate
 		GraspCandidate (const GraspCandidate &c);
 		virtual ~GraspCandidate();
 
-		void initializer (Initializer f);
-		void repairer (Repairer f);
-		void evaluator (Evaluator f);
-		void comparator (Comparator f);
-		void userdata (UserData ud);
+		void initializer (GraspInitializerFunc f);
+		void evaluator (GraspEvaluatorFunc f);
+		void repairer (GraspRepairerFunc f);
+		void comparator (ComparatorFunc f);
+		void userdata (GraspUserData ud);
 
-		Initializer initializer (void) const;
-		Evaluator evaluator (void) const;
-		Repairer repairer (void) const;
-		Comparator comparator(void) const;
-		UserData userdata (void) const;
+		GraspInitializerFunc initializer (void) const;
+		GraspEvaluatorFunc evaluator (void) const;
+		GraspRepairerFunc repairer (void) const;
+		ComparatorFunc comparator(void) const;
+		GraspUserData userdata (void) const;
 
 	protected:
-		Initializer init;
-		Evaluator eval;		// objective function
-		Repairer fixer;
-		UserData udata;
-		Comparator comparer;
+		GraspInitializerFunc init;
+		GraspEvaluatorFunc eval;		// objective function
+		GraspRepairerFunc fixer;
+		ComparatorFunc comparer;
+		GraspUserData udata;
 
 };
 #endif

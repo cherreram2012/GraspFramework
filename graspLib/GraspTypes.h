@@ -16,11 +16,12 @@ typedef unsigned short GraspUShort;
 
 typedef unsigned long int GraspULong;
 
-typedef void* UserData;
-typedef void (*Initializer)	(GraspCandidate &c);
-typedef void (*Repairer) (GraspCandidate &c);
-typedef float (*Evaluator) (GraspCandidate &c);
-typedef float (*Comparator)(const GraspCandidate &c1, const GraspCandidate &c2);
+typedef  void* GraspUserData;
+typedef  void (*GraspInitializerFunc)	(GraspCandidate &c, const float &alfa);
+typedef  void (*GraspRepairerFunc) (GraspCandidate &c);
+typedef float (*GraspEvaluatorFunc) (GraspCandidate &c);
+typedef float (*ComparatorFunc) (const GraspCandidate &c1, const GraspCandidate &c2);
+typedef   int (*GraspNeighborCardFunc) (void);
 
 /*typedef enum _GraspBoolean {
 	graspFalse = 0,

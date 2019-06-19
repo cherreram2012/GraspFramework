@@ -26,6 +26,7 @@
     <ClInclude Include="GraspDMGrasp.h" />
     <ClInclude Include="GraspEliteSet.h" />
     <ClInclude Include="GraspEvPRGrasp.h" />
+    <ClInclude Include="GraspException.h" />
     <ClInclude Include="GraspNeighborhood.h" />
     <ClInclude Include="GraspParallelGrasp.h" />
     <ClInclude Include="GraspAbstractGrasp.h" />
@@ -50,6 +51,7 @@
     <ClCompile Include="GraspDMGrasp.cpp" />
     <ClCompile Include="GraspEliteSet.cpp" />
     <ClCompile Include="GraspEvPRGrasp.cpp" />
+    <ClCompile Include="GraspException.cpp" />
     <ClCompile Include="GraspNeighborhood.cpp" />
     <ClCompile Include="GraspParallelGrasp.cpp" />
     <ClCompile Include="GraspPRGrasp.cpp" />
