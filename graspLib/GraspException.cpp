@@ -1,6 +1,7 @@
 #include "GraspException.h"
 
 GraspComponentException::GraspComponentException(const char *msg)
+	:exception(msg)
 {
 }
 
@@ -8,7 +9,7 @@ GraspComponentException::~GraspComponentException(void)
 {
 }
 
-const char* GraspComponentException::what()
+/*const char* GraspComponentException::what()
 {
-	return "My exception happened";
-}
+	return Mess;
+}*/

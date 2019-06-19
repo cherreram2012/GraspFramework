@@ -10,6 +10,7 @@ class GraspCandidate
 		GraspCandidate (const GraspCandidate &c);
 		virtual ~GraspCandidate();
 
+		//void initialize (const);
 		void initializer (GraspInitializerFunc f);
 		void evaluator (GraspEvaluatorFunc f);
 		void repairer (GraspRepairerFunc f);
@@ -26,8 +27,8 @@ class GraspCandidate
 		GraspInitializerFunc init;
 		GraspEvaluatorFunc eval;		// objective function
 		GraspRepairerFunc fixer;
-		ComparatorFunc comparer;
+		ComparatorFunc comp;
 		GraspUserData udata;
-
+		GraspBool evaluated;
 };
 #endif

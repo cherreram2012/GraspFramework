@@ -39,6 +39,7 @@ class GraspAbstractGrasp
 	protected:
 		GraspUInt seed;
 		GraspFloat alfa;
+		GraspBool prepared;
 		GraspUserData udata;
 		GraspStatistics stats;
 		GraspInitializerFunc init;

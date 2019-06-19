@@ -18,6 +18,7 @@ typedef unsigned long int GraspULong;
 
 typedef  void* GraspUserData;
 typedef  void (*GraspInitializerFunc)	(GraspCandidate &c, const float &alfa);
+//typedef  GraspCandidate &(*GraspInitializerFunc)(const float &alfa);
 typedef  void (*GraspRepairerFunc) (GraspCandidate &c);
 typedef float (*GraspEvaluatorFunc) (GraspCandidate &c);
 typedef float (*ComparatorFunc) (const GraspCandidate &c1, const GraspCandidate &c2);
