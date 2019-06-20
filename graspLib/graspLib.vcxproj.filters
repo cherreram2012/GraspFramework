@@ -87,6 +87,12 @@
     <ClCompile Include="GraspException.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GraspIterativeEvPR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraspRestartsPRGrasp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraspParameter.h">
@@ -162,6 +168,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraspException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspIterativeEvPR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraspRestartsPRGrasp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

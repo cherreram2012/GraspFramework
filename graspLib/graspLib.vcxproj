@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GraspRestartsPRGrasp.h" />
     <ClInclude Include="Grasp1DCandidate.h" />
     <ClInclude Include="Grasp2DCandidate.h" />
     <ClInclude Include="GraspArray.h" />
@@ -27,6 +28,7 @@
     <ClInclude Include="GraspEliteSet.h" />
     <ClInclude Include="GraspEvPRGrasp.h" />
     <ClInclude Include="GraspException.h" />
+    <ClInclude Include="GraspIterativeEvPR.h" />
     <ClInclude Include="GraspNeighborhood.h" />
     <ClInclude Include="GraspParallelGrasp.h" />
     <ClInclude Include="GraspAbstractGrasp.h" />
@@ -46,12 +48,14 @@
     <ClInclude Include="mt19937ar.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GraspRestartsPRGrasp.cpp" />
     <ClCompile Include="GraspArray.cpp" />
     <ClCompile Include="GraspContinuosGrasp.cpp" />
     <ClCompile Include="GraspDMGrasp.cpp" />
     <ClCompile Include="GraspEliteSet.cpp" />
     <ClCompile Include="GraspEvPRGrasp.cpp" />
     <ClCompile Include="GraspException.cpp" />
+    <ClCompile Include="GraspIterativeEvPR.cpp" />
     <ClCompile Include="GraspNeighborhood.cpp" />
     <ClCompile Include="GraspParallelGrasp.cpp" />
     <ClCompile Include="GraspPRGrasp.cpp" />
