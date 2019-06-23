@@ -144,6 +144,7 @@
       <AdditionalDocumentFile>
       </AdditionalDocumentFile>
       <AdditionalOptions>/old </AdditionalOptions>
+      <DocumentLibraryDependencies>true</DocumentLibraryDependencies>
     </Xdcmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
