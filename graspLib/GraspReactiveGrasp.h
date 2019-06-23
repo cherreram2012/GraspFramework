@@ -7,7 +7,8 @@
 class GraspReactiveGrasp : public GraspAbstractGrasp
 {
 	public:
-		GraspReactiveGrasp();
+		GraspReactiveGrasp(const GraspCandidate &c, const GraspFloat alfa);
+		virtual ~GraspReactiveGrasp(void);
 };
 
 #endif

@@ -6,8 +6,9 @@
 
 class GraspDMGrasp : public GraspAbstractGrasp
 {
-public:
-	GraspDMGrasp();
+	public:
+		GraspDMGrasp(const GraspCandidate &c, const GraspFloat alfa);
+		virtual ~GraspDMGrasp(void);
 };
 
 #endif

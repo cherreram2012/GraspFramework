@@ -5,11 +5,11 @@
 template <class T>
 class GraspArray {
 	public:
-		virtual ~GAArray();
+		virtual ~GraspArray();
 
 		void size (unsigned int n);
 		void swap (unsigned int i, unsigned int j);
-		int equal (const GAArray<T> &A) const;
+		int equal (const GraspArray<T> &A) const;
 
 		int size() const;
 

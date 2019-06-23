@@ -2,13 +2,13 @@
 #include "GraspAbstractGrasp.h"
 
 
-void GraspAbstractGrasp::step()
+/*void GraspAbstractGrasp::step()
 {
-}
+}*/
 
 GraspAbstractGrasp::GraspAbstractGrasp(const GraspCandidate &c, const GraspFloat &_alfa)
 {
-	seed = 0;
+	/*seed = 0;
 	alfa = _alfa;
 	term = nullptr;
 	lsearch = nullptr;
@@ -16,14 +16,14 @@ GraspAbstractGrasp::GraspAbstractGrasp(const GraspCandidate &c, const GraspFloat
 	init = c.initializer();
 	eval = c.evaluator();
 	fixer = c.repairer();
-	udata = c.userdata();
+	udata = c.userdata();*/
 }
 
 GraspAbstractGrasp::~GraspAbstractGrasp(void)
 {
 }
 
-void GraspAbstractGrasp::prepare(GraspUInt _seed)
+/*void GraspAbstractGrasp::prepare(GraspUInt _seed)
 {
 	seed = _seed;
 
@@ -105,4 +105,4 @@ GraspLocalSearch *GraspAbstractGrasp::localsearcher(void) const
 GraspBool GraspAbstractGrasp::isdone(void)
 {
 	return term->isdone(stats);
-}
+}*/

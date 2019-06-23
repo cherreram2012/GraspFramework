@@ -3,7 +3,6 @@
 #define GraspStatistics_H
 
 #include "GraspTypes.h"
-#include "GraspBasicGrasp.h"
 
 class GraspStatistics
 {

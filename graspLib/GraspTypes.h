@@ -2,6 +2,8 @@
 #ifndef GraspTypes_H
 #define GraspTypes_H
 
+class GraspCandidate;
+
 typedef bool GraspBool;
 
 typedef short GraspShort;

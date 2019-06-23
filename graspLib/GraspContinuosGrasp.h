@@ -6,8 +6,9 @@
 
 class GraspContinuosGrasp : public GraspAbstractGrasp
 {
-public:
-	GraspContinuosGrasp();
+	public:
+		GraspContinuosGrasp(const GraspCandidate &c, const GraspFloat alfa);
+		virtual ~GraspContinuosGrasp();
 };
 
 #endif

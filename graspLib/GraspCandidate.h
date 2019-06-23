@@ -7,6 +7,7 @@
 class GraspCandidate
 {
 	public:
+		GraspCandidate(void) {}
 		GraspCandidate (const GraspCandidate &c);
 		virtual ~GraspCandidate();
 

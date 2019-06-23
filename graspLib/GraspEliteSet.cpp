@@ -58,6 +58,7 @@ GraspBool GraspEliteSet::empty(void) const
 
 GraspUShort GraspEliteSet::size(void) const
 {
+	return esize;
 }
 
 GraspUShort GraspEliteSet::count(void) const
@@ -67,20 +68,30 @@ GraspUShort GraspEliteSet::count(void) const
 
 GraspCandidate &GraspEliteSet::best(void) const
 {
+	GraspCandidate a;
+
+	return a;
 }
 
 GraspCandidate &GraspEliteSet::worst(void) const
 {
+	GraspCandidate a;
+
+	return a;
 }
 
 GraspCandidate &GraspEliteSet::rselect(void) const
 {
-	int i;
+	//int i;
 
-	if (eindex == -1) 
+	/*if (eindex == -1) 
 		throw std::exception("CEliteSet::rselect(): unable to random select. Elite set is empty.");
 
 	i = genrand_int32() % (eindex + 1);
-	return earray[i].S;
+	return earray[i].;*/
+
+	GraspCandidate a;
+
+	return a;
 }
 

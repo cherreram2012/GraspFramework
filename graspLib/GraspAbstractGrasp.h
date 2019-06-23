@@ -1,6 +1,6 @@
 #pragma once
-#ifndef GraspBase_H
-#define GraspBase_H
+#ifndef GraspAbstractGrasp_H
+#define GraspAbstractGrasp_H
 
 #include "GraspTypes.h"
 #include "GraspCandidate.h"
@@ -9,12 +9,25 @@
 #include "GraspNeighborhood.h"
 #include "GraspStopCriterion.h"
 
+///<summary>Mi primer comentarios de documentacion en c++.</summary>
 class GraspAbstractGrasp
 {
 	public:
+		/// <summary>
+		/// Constructor.
+		/// </summary>
+		/// <param name="c">Abstract candidate for GRASP procedure.</param>
+		/// <param name="_alfa">Define a parameter alfa value for GRASP procedure. </param>
 		GraspAbstractGrasp(const GraspCandidate &c, const GraspFloat &_alfa);
+
+		/// <summary>
+		/// 
+		/// </summary>
 		virtual ~GraspAbstractGrasp(void);
 		
+		/// <summary>
+		/// 
+		/// </summary>
 		virtual void step() = 0; 
 		virtual void execute() = 0;
 		

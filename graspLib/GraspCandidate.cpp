@@ -2,7 +2,7 @@
 
 GraspCandidate::GraspCandidate(const GraspCandidate &c)
 {
-	evalued = false;
+	evaluated = false;
 	init = nullptr;
 	eval = nullptr;
 	fixer = nullptr;

@@ -11,6 +11,10 @@ void GraspFirstImproving::execute(void)
 	//S = entry;
 	//Neighborhood->SetEntryPoint(S);
 
+	card = 0; // temp
+	fprime = 0;
+	f = 0;
+
 	last = -1;
 	improved = true;
 	while (improved)
@@ -51,7 +55,10 @@ void GraspBestImproving::execute(void)
 	//Neighborhood->SetEntryPoint(S);
 	//card = Neighborhood->Cardinality();
 
-	
+	card = 0; // temp
+	fprime = 0;
+	f = 0;
+
 	improved = true;
 	while (improved)
 	{
