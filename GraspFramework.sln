@@ -4,20 +4,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grasp.test", "grasp.test\grasp.test.vcxproj", "{01EEB1F7-52F0-475D-BE89-2D3B1DCC561B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF002C1-9550-4242-8BFA-7A4257168055} = {5AF002C1-9550-4242-8BFA-7A4257168055}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graspLib", "graspLib\graspLib.vcxproj", "{5AF002C1-9550-4242-8BFA-7A4257168055}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex1.spp", "examples\ex1.spp\ex1.spp.vcxproj", "{B71C0EEE-CFEB-4209-82FB-FF2C3922190A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF002C1-9550-4242-8BFA-7A4257168055} = {5AF002C1-9550-4242-8BFA-7A4257168055}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex2.mstp", "examples\ex2.mstp\ex2.mstp.vcxproj", "{A5419259-F094-421A-A39F-DE0E7048A7EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF002C1-9550-4242-8BFA-7A4257168055} = {5AF002C1-9550-4242-8BFA-7A4257168055}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex3.mcp", "examples\ex3.mcp\ex3.mcp.vcxproj", "{6A3525D7-E0FA-40C8-96C6-D954FDBA9E14}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF002C1-9550-4242-8BFA-7A4257168055} = {5AF002C1-9550-4242-8BFA-7A4257168055}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex4.ksp", "examples\ex4.ksp\ex4.ksp.vcxproj", "{6475BC9E-7787-4781-981B-82E9B69CD8A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF002C1-9550-4242-8BFA-7A4257168055} = {5AF002C1-9550-4242-8BFA-7A4257168055}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex5.tsp", "examples\ex5.tsp\ex5.tsp.vcxproj", "{0F60B34D-2E1F-40CA-B54B-9ED6EF674996}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF002C1-9550-4242-8BFA-7A4257168055} = {5AF002C1-9550-4242-8BFA-7A4257168055}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex6.stp", "examples\ex6.stp\ex6.stp.vcxproj", "{5AF58684-E144-4050-9432-C920516D6F09}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF002C1-9550-4242-8BFA-7A4257168055} = {5AF002C1-9550-4242-8BFA-7A4257168055}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
