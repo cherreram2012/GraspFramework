@@ -4,3 +4,8 @@ template <class T>
 Grasp1DCandidate<T>::Grasp1DCandidate()
 {
 }
+
+template <class T>
+Grasp1DCandidate<T>::~Grasp1DCandidate()
+{
+}

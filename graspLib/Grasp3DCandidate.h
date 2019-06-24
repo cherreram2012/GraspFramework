@@ -8,7 +8,8 @@
 template <class T>
 class Grasp3DCandidate : public GraspCandidate, public GraspArray <T>
 {
-
+	public:
+		Grasp3DCandidate<T>();
 };
 
 #endif

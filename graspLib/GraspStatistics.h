@@ -7,7 +7,13 @@
 class GraspStatistics
 {
 	public:
+		friend class GraspPRGrasp;
+		friend class GraspDMGrasp;
+		friend class GraspEvPRGrasp;
 		friend class GraspBasicGrasp;
+		friend class GraspParallelGrasp;
+		friend class GraspReactiveGrasp;
+		friend class GraspContinuosGrasp;
 
 	public:
 		inline GraspULong improves(void) const;
