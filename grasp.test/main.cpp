@@ -12,10 +12,13 @@ int main(void)
 			 << "| GRASP-Lib Tester project.  |" 
 			 << "+-----------------------------+";
 
+	TestCandidate();
+
 	return 0;
 }
 
 void TestCandidate(void)
 {
-
+	//Grasp1DCandidate<unsigned> c(10);
+	Grasp1DCandidate <unsigned> c(10);
 }

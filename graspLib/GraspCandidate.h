@@ -11,7 +11,6 @@ class GraspCandidate
 		GraspCandidate (const GraspCandidate &c);
 		virtual ~GraspCandidate();
 
-		//void initialize (const);
 		void initializer (GraspInitializerFunc f);
 		void evaluator (GraspEvaluatorFunc f);
 		void repairer (GraspRepairerFunc f);
